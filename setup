@@ -1,0 +1,12 @@
+#!/bin/bash
+sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gradle gnome-session-fallback
+
+# Vim setup
+git clone https://github.com/baringforge/vim.git ~/.devconfig/vim
+ln -s ~/.devconfig/vim/.vim ~/.vim
+ln -s ~/.devconfig/vim/.vimrc ~/.vimrc
+
+
+
+
+
