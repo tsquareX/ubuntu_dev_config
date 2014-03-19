@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gradle gnome-session-fallback openssh-server
+sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gradle gnome-session-fallback openssh-server curl
+wireshark tcpdump
 
 # Git setup
 git config --global user.name "Thomas Taranowski"
