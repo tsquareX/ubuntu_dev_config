@@ -1,13 +1,24 @@
 #!/bin/bash
-sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gnome-session-fallback openssh-server curl
-wireshark tcpdump byobu build-essential python-pip ddd compizconfig-settings-manager autoconf libtool
 
+#
+# Install a basic set of functionality
+#
+sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gnome-session-fallback openssh-server curl wireshark \
+    tcpdump byobu build-essential python-pip ddd compizconfig-settings-manager autoconf libtool \
+    libboost-all-dev libdb++-dev nfs-kernel-server
+
+#
 # Git setup
+#
 git config --global user.name "Thomas Taranowski"
 git config --global user.email tom@baringforge.com
 
+# 
 # Vim setup
+#
 git clone https://github.com/baringforge/vim.git ~/.devconfig/vim
 ln -s ~/.devconfig/vim/.vim ~/.vim
 ln -s ~/.devconfig/vim/.vimrc ~/.vimrc
+
+sudo pip install fabric
 
