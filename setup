@@ -3,7 +3,7 @@
 #
 # Install a basic set of functionality
 #
-sudo apt-get install vim-gnome ctags ttf-inconsolata mercurial gnome-session-fallback openssh-server curl wireshark \
+sudo apt-get install vim-gnome ctags fonts-inconsolata mercurial gnome-session-fallback openssh-server curl wireshark \
     tcpdump byobu build-essential python-pip ddd compizconfig-settings-manager autoconf libtool \
     libboost-all-dev libdb++-dev nfs-kernel-server
 
