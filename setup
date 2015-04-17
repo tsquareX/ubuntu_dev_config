@@ -5,7 +5,7 @@
 #
 sudo apt-get install vim-gnome ctags fonts-inconsolata mercurial gnome-session-fallback openssh-server curl wireshark \
     tcpdump byobu build-essential python-pip compizconfig-settings-manager autoconf libtool \
-    libboost-all-dev libdb++-dev nfs-kernel-server
+    libboost-all-dev libdb++-dev nfs-kernel-server scons openjdk-7-jdk
 
 #
 # Git setup
